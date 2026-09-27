@@ -14,7 +14,7 @@ body {
 main {
     max-width: 1000px;
     margin: auto;
-    padding: 70px 30px;
+    padding: 40px 30px;
 }
 
 h2 {
@@ -32,7 +32,7 @@ h3 {
 .hero {
     text-align: center;
     background-color: white;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
 }
 
 .hero-bar {
