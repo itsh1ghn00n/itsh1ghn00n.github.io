@@ -30,9 +30,9 @@ h3 {
 /* ---------- HERO ---------- */
 
 .hero {
-    min-height: 100vh;
     text-align: center;
     background-color: white;
+    padding-bottom: 80px;
 }
 
 .hero-bar {
