@@ -12,6 +12,15 @@ concepts from my coursework outside of individual assignments.
 
 ### Academic Projects
 
+#### PantryPal
+A team-developed web application for tracking household groceries and pantry information.
+
+- Integrates with the Kroger API
+- Tracks pantry inventory and expiration information
+- Provides household spending and pantry insights
+
+[Not Public Yet]
+
 #### Movie Hub
 A full-stack movie and television review aggregation website.
 
@@ -21,15 +30,6 @@ A full-stack movie and television review aggregation website.
 - User authentication with JWT
 
 [View Project](https://github.com/itsh1ghn00n/CSC3916_Assignment5)
-
-#### PantryPal
-A team-developed web application for tracking household groceries and pantry information.
-
-- Integrates with the Kroger API
-- Tracks pantry inventory and expiration information
-- Provides household spending and pantry insights
-
-[Not Public Yet]
 
 #### SnakeBoy <img src="images/SnakeIcon.png" alt="SnakeBoy Arduino project" width="50">
 A team-developed recreation of the game snake, using a 3d printed case and an Arduino UNO 
