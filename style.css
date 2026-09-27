@@ -25,6 +25,13 @@ body {
     object-fit: cover;
 }
 
+.project {
+    margin-bottom: 50px;
+    padding: 25px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
 main {
     max-width: 900px;
     margin: auto;
