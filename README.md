@@ -34,7 +34,7 @@ A team-developed web application for tracking household groceries and pantry inf
 #### SnakeBoy <img src="images/SnakeIcon.png" alt="SnakeBoy Arduino project" width="50">
 A team-developed recreation of the game snake, using a 3d printed case and an Arduino UNO 
 
-<img src="images/SnakeBoy-shell.jpg" alt="SnakeBoy Arduino project" width="500">
+<img src="images/SnakeBoy-shell.jpg" alt="SnakeBoy Arduino project" width="300">
 
 - Programmed the game's core Snake mechanics in C++
 - Integrated physical controls and a display with the Arduino Uno
