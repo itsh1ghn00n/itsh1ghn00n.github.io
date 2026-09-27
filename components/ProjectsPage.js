@@ -178,14 +178,15 @@ projects.forEach(project => {
                         View Demo →
                     </a>
                 ` : ""}
-
-                <a
-                    href="${project.github}"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    GitHub ↗
-                </a>
+                ${project.github ? `
+                    <a
+                        href="${project.github}"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        GitHub ↗
+                    </a>
+                ` : ""}
             </div>
 
         </div>
