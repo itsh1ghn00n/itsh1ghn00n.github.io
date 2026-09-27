@@ -12,150 +12,185 @@
 
 <body>
 
-    <header class="hero">
+<div class="page-layout">
 
-        <div class="hero-bar">
-            <img src="images/profile.jpg"
-                 alt="Photo of Nico Castaldo"
-                 class="profile-photo">
+    <aside class="sidebar">
+
+        <img src="images/profile.jpg"
+             alt="Nico Castaldo"
+             class="profile-photo">
+
+        <h1>Nico Castaldo</h1>
+
+        <p class="title">
+            Computer Science Student & Developer
+        </p>
+
+        <div class="social-links">
+
+            <a href="https://github.com/itsh1ghn00n"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="#"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
         </div>
-    
-        <div class="hero-content">
-            <h1>Nico Castaldo</h1>
-            <h2>Computer Science Student & Developer</h2>
-    
-            <p class="interests">
-                Software Engineering • Game Development • Data Science
+
+        <section class="sidebar-section">
+
+            <h2>About</h2>
+
+            <p>
+                I'm a Computer Science student at CU Denver with minors
+                in Mathematics and Data Science.
             </p>
 
-            <section id="about">
-                
-                <p>
-                    I'm a Computer Science student at CU Denver with minors in Mathematics
-                    and Data Science. I'm particularly interested in software engineering,
-                    game development, and working with data.
-                </p>
-    
-                <p>
-                    I enjoy building projects that give me an opportunity to learn new
-                    technologies and apply concepts from my coursework outside of
-                    individual assignments.
-                </p>
-    
-            </section>
-            
-            
-            <a href="#projects" class="read-more">
-                READ MORE
-            </a>
-        </div>
-    
-    </header>
+            <p>
+                I'm particularly interested in software engineering,
+                game development, and working with data.
+            </p>
 
+        </section>
 
-    <main>
+        <section class="sidebar-section">
+
+            <h2>Skills</h2>
+
+            <div class="skills">
+
+                <span>C++</span>
+                <span>Python</span>
+                <span>JavaScript</span>
+                <span>React</span>
+                <span>MongoDB</span>
+                <span>REST APIs</span>
+                <span>Git</span>
+                <span>Linux</span>
+
+            </div>
+
+        </section>
+
+    </aside>
+
+    <main class="content">
 
         <section id="projects">
 
-            <h2>Projects</h2>
+            <h2 class="section-title">Projects</h2>
 
-            <h3>Academic</h3>
+            <div class="project-grid">
 
-            <article class="project">
+                <article class="project">
 
-                <h4>Movie Hub</h4>
+                    <img src="images/moviehub.png"
+                         alt="Movie Hub">
 
-                <img src="images/#####.png"
-                     alt="Movie Hub"
-                     width="500">
+                    <h3>Movie Hub</h3>
 
-                <p>
-                    A full-stack movie and television review aggregation website.
-                </p>
+                    <div class="tags">
+                        <span>React</span>
+                        <span>MongoDB</span>
+                        <span>REST API</span>
+                    </div>
 
-                <ul>
-                    <li>Built a REST API for movies, shows, users, and reviews</li>
-                    <li>MongoDB database</li>
-                    <li>React frontend</li>
-                    <li>User authentication with JWT</li>
-                </ul>
+                    <p>
+                        A full-stack movie and television review
+                        aggregation website with user authentication,
+                        reviews, movies, and television shows.
+                    </p>
 
-                <a href="https://github.com/itsh1ghn00n/CSC3916_Assignment5"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View on GitHub
-                </a>
+                    <a href="https://github.com/itsh1ghn00n/CSC3916_Assignment5"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project →
+                    </a>
 
-            </article>
+                </article>
 
+                <article class="project">
 
-            <article class="project">
+                    <img src="images/SnakeIcon.png"
+                         alt="SnakeBoy">
 
-                <h4>SnakeBoy</h4>
+                    <h3>SnakeBoy</h3>
 
-                <img src="images/SnakeIcon.png"
-                     alt="SnakeBoy Arduino Project"
-                     width="50">
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Arduino</span>
+                        <span>Hardware</span>
+                    </div>
 
-                <p>
-                    A team-developed recreation of the classic game Snake,
-                    built using an Arduino Uno and a custom 3D-printed enclosure.
-                </p>
+                    <p>
+                        A team-developed recreation of the classic
+                        game Snake using an Arduino Uno, physical
+                        controls, and a custom 3D-printed enclosure.
+                    </p>
 
-                <ul>
-                    <li>Programmed the game's core Snake mechanics in C++</li>
-                    <li>Integrated physical controls and a display with the Arduino Uno</li>
-                    <li>Designed and assembled the project within a custom 3D-printed case</li>
-                </ul>
+                    <a href="https://github.com/itsh1ghn00n/Snake-Final"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        View Project →
+                    </a>
 
-                <a href="https://github.com/itsh1ghn00n/Snake-Final"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View on GitHub
-                </a>
+                </article>
 
-            </article>
+                <article class="project">
 
+                    <img src="images/pantrypal.png"
+                         alt="PantryPal">
 
-            <article class="project">
+                    <h3>PantryPal</h3>
 
-                <h4>PantryPal</h4>
+                    <div class="tags">
+                        <span>Web</span>
+                        <span>API</span>
+                        <span>Kroger API</span>
+                    </div>
 
-                <img src="images/#####.png"
-                     alt="PantryPal Project"
-                     width="500">
+                    <p>
+                        A team-developed web application for tracking
+                        household groceries, pantry inventory,
+                        expiration information, and spending insights.
+                    </p>
 
-                <p>
-                    A team-developed web application for tracking household groceries
-                    and pantry information.
-                </p>
+                    <a href="#">
+                        View Project →
+                    </a>
 
-                <ul>
-                    <li>Integrates with the Kroger API</li>
-                    <li>Tracks pantry inventory and expiration information</li>
-                    <li>Provides household spending and pantry insights</li>
-                </ul>
+                </article>
 
-                <!-- Add repository URL once available -->
-                <!--
-                <a href="YOUR-PANTRYPAL-REPOSITORY"
-                   target="_blank"
-                   rel="noopener noreferrer">
-                    View on GitHub
-                </a>
-                -->
+            </div>
 
-            </article>
+        </section>
 
+        <section class="education">
 
-            <h3>Personal</h3>
+            <h2 class="section-title">Education</h2>
 
-            <!-- Personal projects can go here -->
+            <p class="date">Expected 2027</p>
+
+            <h3>University of Colorado Denver</h3>
+
+            <p>
+                Bachelor of Science in Computer Science
+            </p>
+
+            <p>
+                Minors in Mathematics and Data Science
+            </p>
 
         </section>
 
     </main>
 
-</body>
+</div>
 
+</body>
 </html>
